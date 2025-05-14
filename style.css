@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #333;
+}
+header {
+  background-color: #c62828;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #ffeb3b;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.hero {
+  background-color: #a83232;
+  color: white;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero .cta {
+  background-color: #ffeb3b;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #fff7f7;
+}
+.features div {
+  text-align: center;
+  max-width: 200px;
+}
+.features div h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.promo {
+  background-color: #ffc107;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer {
+  background-color: #c62828;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
